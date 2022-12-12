@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.app {
+  background: #1a1b21;
+  width: 350px;
+  margin: 44px auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.memoji {
+  background: #34363f;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 21px;
+}
+
+h3 {
+  color: #f3bf99;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 15px;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 16px;
+  padding-top: 20px;
+  gap: 17px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 9px 26px;
+}
+
+.email-btn {
+  color: #374151;
+  background: #ffffff;
+}
+
+.email-icon {
+  margin-right: 8px;
+}
+
+.portfolio-btn {
+  color: #ffffff;
+  background: #74988e;
+}
+
+.portfolio-icon {
+  margin-right: 8px;
+}
+
+section {
+  margin: 0px 34px 24px 36px;
+}
+
+h2 {
+  color: #f5f5f5;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+p {
+  color: #dcdcdc;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 150%;
+}
+
+.about {
+  margin-top: 24px;
+}
+
+footer {
+  background: #161619;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.social-apps {
+  color: #918e9b;
+  width: 25px;
+  height: 25px;
+}
