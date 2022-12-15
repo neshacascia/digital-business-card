@@ -1,8 +1,8 @@
 import React from 'react';
 
-export function Interests() {
+export function Interests(props) {
   return (
-    <section>
+    <section className={!props.darkmode ? 'light' : ''}>
       <h2>Interests</h2>
       <p>
         Book worm. Anime lover. Foodie. Travel geek. Bubble tea connoisseur.

@@ -3,9 +3,9 @@ import { faSquareTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons';
 
-export function Footer() {
+export function Footer(props) {
   return (
-    <footer>
+    <footer className={!props.darkmode ? 'light' : ''}>
       <a href="https://twitter.com/neshacascia" target="_blank">
         <FontAwesomeIcon
           className="social-apps"

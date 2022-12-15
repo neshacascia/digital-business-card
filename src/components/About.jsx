@@ -1,8 +1,8 @@
 import React from 'react';
 
-export function About() {
+export function About(props) {
   return (
-    <section className="about">
+    <section className={`about ${!props.darkmode ? 'light' : ''}`}>
       <h2>About</h2>
       <p>
         I am a passionate frontend developer, specializing in transforming ideas
